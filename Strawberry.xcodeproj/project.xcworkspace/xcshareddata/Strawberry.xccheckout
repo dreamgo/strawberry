@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>765BD5D6-FC29-4250-894A-CEAACF85F0C4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Strawberry</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B50175A0-D8CA-44E3-81D4-080D663E24CA</key>
+		<string>ssh://github.com/dreamgo/strawberry.git</string>
+		<key>CAA25F2D-866E-4DF2-8480-EC218AFF47EC</key>
+		<string>ssh://github.com/dreamgo/strawberry.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Strawberry.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B50175A0-D8CA-44E3-81D4-080D663E24CA</key>
+		<string>../..</string>
+		<key>CAA25F2D-866E-4DF2-8480-EC218AFF47EC</key>
+		<string>../../strawberry</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/dreamgo/strawberry.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B50175A0-D8CA-44E3-81D4-080D663E24CA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B50175A0-D8CA-44E3-81D4-080D663E24CA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>strawberry</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CAA25F2D-866E-4DF2-8480-EC218AFF47EC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>strawberry</string>
+		</dict>
+	</array>
+</dict>
+</plist>
