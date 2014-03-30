@@ -15,6 +15,7 @@
 		2D23954618D2E42E008563EC /* LFDisplayBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23953D18D2E42E008563EC /* LFDisplayBridge.m */; };
 		2D23954718D2E42E008563EC /* LFGlassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23953F18D2E42E008563EC /* LFGlassView.m */; };
 		2D23954918D2E77F008563EC /* peach.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D23954818D2E77F008563EC /* peach.png */; };
+		2D45878418E7B882006E240A /* clemson u.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878318E7B882006E240A /* clemson u.gif */; };
 		2D52187118CD4AE2005FCC20 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D52187018CD4AE2005FCC20 /* ViewPagerController.m */; };
 		2D52187418CD4D03005FCC20 /* content1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D52187318CD4D03005FCC20 /* content1ViewController.m */; };
 		2D52187718CD4D0C005FCC20 /* content2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D52187618CD4D0C005FCC20 /* content2ViewController.m */; };
@@ -36,6 +37,16 @@
 		2D7EF4E218CD496E00318443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D7EF4E018CD496E00318443 /* InfoPlist.strings */; };
 		2D7EF4E418CD496E00318443 /* StrawberryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7EF4E318CD496E00318443 /* StrawberryTests.m */; };
 		2DB6E2D918DCAFBA000936CC /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB6E2D818DCAFBA000936CC /* infoViewController.m */; };
+		2DB6E32818DCCB9B000936CC /* disease11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB6E32718DCCB9B000936CC /* disease11ViewController.m */; };
+		2DB6E32B18DCCBB2000936CC /* disease12ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB6E32A18DCCBB2000936CC /* disease12ViewController.m */; };
+		2DECAF5118DD047200E651E6 /* HouseBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DECAF5018DD047200E651E6 /* HouseBlack.png */; };
+		2DECAF5518DD060600E651E6 /* volume-24-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DECAF5418DD060600E651E6 /* volume-24-512.png */; };
+		2DECAF5718DD079F00E651E6 /* File - Video.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DECAF5618DD079F00E651E6 /* File - Video.png */; };
+		2DECAF5918DD08F500E651E6 /* f131.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DECAF5818DD08F500E651E6 /* f131.png */; };
+		2DECAF5B18DD0EE700E651E6 /* f142.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DECAF5A18DD0EE700E651E6 /* f142.png */; };
+		2DECAF6418DD114000E651E6 /* UIView+XCMultiSortTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECAF5E18DD114000E651E6 /* UIView+XCMultiSortTableView.m */; };
+		2DECAF6518DD114000E651E6 /* XCMultiSortTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECAF6018DD114000E651E6 /* XCMultiSortTableView.m */; };
+		2DECAF6618DD114000E651E6 /* XCMultiSortTableViewBGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DECAF6218DD114000E651E6 /* XCMultiSortTableViewBGScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +76,7 @@
 		2D23953F18D2E42E008563EC /* LFGlassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFGlassView.m; sourceTree = "<group>"; };
 		2D23954018D2E42E008563EC /* LiveFrost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveFrost.h; sourceTree = "<group>"; };
 		2D23954818D2E77F008563EC /* peach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peach.png; sourceTree = "<group>"; };
+		2D45878318E7B882006E240A /* clemson u.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "clemson u.gif"; sourceTree = "<group>"; };
 		2D52186F18CD4AE1005FCC20 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
 		2D52187018CD4AE2005FCC20 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
 		2D52187218CD4D03005FCC20 /* content1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content1ViewController.h; sourceTree = "<group>"; };
@@ -96,6 +108,22 @@
 		2D7EF4E318CD496E00318443 /* StrawberryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrawberryTests.m; sourceTree = "<group>"; };
 		2DB6E2D718DCAFBA000936CC /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = infoViewController.h; path = strawberry/infoViewController.h; sourceTree = SOURCE_ROOT; };
 		2DB6E2D818DCAFBA000936CC /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = infoViewController.m; path = strawberry/infoViewController.m; sourceTree = SOURCE_ROOT; };
+		2DB6E32618DCCB9B000936CC /* disease11ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = disease11ViewController.h; path = strawberry/disease11ViewController.h; sourceTree = SOURCE_ROOT; };
+		2DB6E32718DCCB9B000936CC /* disease11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = disease11ViewController.m; path = strawberry/disease11ViewController.m; sourceTree = SOURCE_ROOT; };
+		2DB6E32918DCCBB2000936CC /* disease12ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = disease12ViewController.h; path = strawberry/disease12ViewController.h; sourceTree = SOURCE_ROOT; };
+		2DB6E32A18DCCBB2000936CC /* disease12ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = disease12ViewController.m; path = strawberry/disease12ViewController.m; sourceTree = SOURCE_ROOT; };
+		2DECAF5018DD047200E651E6 /* HouseBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HouseBlack.png; sourceTree = "<group>"; };
+		2DECAF5418DD060600E651E6 /* volume-24-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volume-24-512.png"; sourceTree = "<group>"; };
+		2DECAF5618DD079F00E651E6 /* File - Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File - Video.png"; sourceTree = "<group>"; };
+		2DECAF5818DD08F500E651E6 /* f131.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f131.png; sourceTree = "<group>"; };
+		2DECAF5A18DD0EE700E651E6 /* f142.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f142.png; sourceTree = "<group>"; };
+		2DECAF5D18DD114000E651E6 /* UIView+XCMultiSortTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCMultiSortTableView.h"; sourceTree = "<group>"; };
+		2DECAF5E18DD114000E651E6 /* UIView+XCMultiSortTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCMultiSortTableView.m"; sourceTree = "<group>"; };
+		2DECAF5F18DD114000E651E6 /* XCMultiSortTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMultiSortTableView.h; sourceTree = "<group>"; };
+		2DECAF6018DD114000E651E6 /* XCMultiSortTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCMultiSortTableView.m; sourceTree = "<group>"; };
+		2DECAF6118DD114000E651E6 /* XCMultiSortTableViewBGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMultiSortTableViewBGScrollView.h; sourceTree = "<group>"; };
+		2DECAF6218DD114000E651E6 /* XCMultiSortTableViewBGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCMultiSortTableViewBGScrollView.m; sourceTree = "<group>"; };
+		2DECAF6318DD114000E651E6 /* XCMultiSortTableViewDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMultiSortTableViewDefault.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,11 +214,16 @@
 		2D7EF4BE18CD496D00318443 /* Strawberry */ = {
 			isa = PBXGroup;
 			children = (
+				2DECAF5C18DD114000E651E6 /* XCMultiSortTableView */,
 				2D23953118D2E42E008563EC /* CXAlertView */,
 				2D52186E18CD4AE1005FCC20 /* ICViewPager */,
 				2D7EF4C718CD496D00318443 /* CUAppDelegate.h */,
 				2D7EF4C818CD496D00318443 /* CUAppDelegate.m */,
 				2D7EF4CA18CD496D00318443 /* Main.storyboard */,
+				2DB6E32618DCCB9B000936CC /* disease11ViewController.h */,
+				2DB6E32718DCCB9B000936CC /* disease11ViewController.m */,
+				2DB6E32918DCCBB2000936CC /* disease12ViewController.h */,
+				2DB6E32A18DCCBB2000936CC /* disease12ViewController.m */,
 				2DB6E2D718DCAFBA000936CC /* infoViewController.h */,
 				2DB6E2D818DCAFBA000936CC /* infoViewController.m */,
 				2D52187218CD4D03005FCC20 /* content1ViewController.h */,
@@ -210,6 +243,12 @@
 		2D7EF4BF18CD496D00318443 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2D45878318E7B882006E240A /* clemson u.gif */,
+				2DECAF5018DD047200E651E6 /* HouseBlack.png */,
+				2DECAF5818DD08F500E651E6 /* f131.png */,
+				2DECAF5A18DD0EE700E651E6 /* f142.png */,
+				2DECAF5618DD079F00E651E6 /* File - Video.png */,
+				2DECAF5418DD060600E651E6 /* volume-24-512.png */,
 				2D5D71FB18D28AED0007D44C /* strawberry_d1.jpg */,
 				2D23954818D2E77F008563EC /* peach.png */,
 				2D52188118CD5005005FCC20 /* strawberry.png */,
@@ -237,6 +276,20 @@
 				2D7EF4E018CD496E00318443 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DECAF5C18DD114000E651E6 /* XCMultiSortTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2DECAF5D18DD114000E651E6 /* UIView+XCMultiSortTableView.h */,
+				2DECAF5E18DD114000E651E6 /* UIView+XCMultiSortTableView.m */,
+				2DECAF5F18DD114000E651E6 /* XCMultiSortTableView.h */,
+				2DECAF6018DD114000E651E6 /* XCMultiSortTableView.m */,
+				2DECAF6118DD114000E651E6 /* XCMultiSortTableViewBGScrollView.h */,
+				2DECAF6218DD114000E651E6 /* XCMultiSortTableViewBGScrollView.m */,
+				2DECAF6318DD114000E651E6 /* XCMultiSortTableViewDefault.h */,
+			);
+			path = XCMultiSortTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,8 +373,14 @@
 				2D5D71FC18D28AED0007D44C /* strawberry_d1.jpg in Resources */,
 				2D7EF4C318CD496D00318443 /* InfoPlist.strings in Resources */,
 				2D52188218CD5005005FCC20 /* strawberry.png in Resources */,
+				2DECAF5718DD079F00E651E6 /* File - Video.png in Resources */,
+				2DECAF5518DD060600E651E6 /* volume-24-512.png in Resources */,
+				2DECAF5918DD08F500E651E6 /* f131.png in Resources */,
+				2DECAF5118DD047200E651E6 /* HouseBlack.png in Resources */,
 				2D7EF4CC18CD496D00318443 /* Main.storyboard in Resources */,
 				2D23954918D2E77F008563EC /* peach.png in Resources */,
+				2DECAF5B18DD0EE700E651E6 /* f142.png in Resources */,
+				2D45878418E7B882006E240A /* clemson u.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +400,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D23954518D2E42E008563EC /* CXAlertViewController.m in Sources */,
+				2DECAF6618DD114000E651E6 /* XCMultiSortTableViewBGScrollView.m in Sources */,
 				2D52188018CD4DF7005FCC20 /* HostViewController.m in Sources */,
+				2DB6E32B18DCCBB2000936CC /* disease12ViewController.m in Sources */,
 				2D52187A18CD4D18005FCC20 /* content3ViewController.m in Sources */,
+				2DB6E32818DCCB9B000936CC /* disease11ViewController.m in Sources */,
 				2D7EF4C918CD496D00318443 /* CUAppDelegate.m in Sources */,
 				2D52187118CD4AE2005FCC20 /* ViewPagerController.m in Sources */,
 				2D23954618D2E42E008563EC /* LFDisplayBridge.m in Sources */,
@@ -355,6 +417,8 @@
 				2D52187718CD4D0C005FCC20 /* content2ViewController.m in Sources */,
 				2D23954418D2E42E008563EC /* CXAlertView.m in Sources */,
 				2D23954118D2E42E008563EC /* CXAlertBackgroundWindow.m in Sources */,
+				2DECAF6418DD114000E651E6 /* UIView+XCMultiSortTableView.m in Sources */,
+				2DECAF6518DD114000E651E6 /* XCMultiSortTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
