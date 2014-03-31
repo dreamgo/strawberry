@@ -16,6 +16,10 @@
 		2D23954718D2E42E008563EC /* LFGlassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23953F18D2E42E008563EC /* LFGlassView.m */; };
 		2D23954918D2E77F008563EC /* peach.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D23954818D2E77F008563EC /* peach.png */; };
 		2D45878418E7B882006E240A /* clemson u.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878318E7B882006E240A /* clemson u.gif */; };
+		2D45878A18E93566006E240A /* Anthracnose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878618E93566006E240A /* Anthracnose.png */; };
+		2D45878B18E93566006E240A /* Gray mold.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878718E93566006E240A /* Gray mold.png */; };
+		2D45878C18E93566006E240A /* p_cactorum_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878818E93566006E240A /* p_cactorum_main.png */; };
+		2D45878F18E9368C006E240A /* Powdery mildew.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878E18E9368C006E240A /* Powdery mildew.png */; };
 		2D52187118CD4AE2005FCC20 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D52187018CD4AE2005FCC20 /* ViewPagerController.m */; };
 		2D52187418CD4D03005FCC20 /* content1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D52187318CD4D03005FCC20 /* content1ViewController.m */; };
 		2D52187718CD4D0C005FCC20 /* content2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D52187618CD4D0C005FCC20 /* content2ViewController.m */; };
@@ -77,6 +81,10 @@
 		2D23954018D2E42E008563EC /* LiveFrost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveFrost.h; sourceTree = "<group>"; };
 		2D23954818D2E77F008563EC /* peach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peach.png; sourceTree = "<group>"; };
 		2D45878318E7B882006E240A /* clemson u.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "clemson u.gif"; sourceTree = "<group>"; };
+		2D45878618E93566006E240A /* Anthracnose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Anthracnose.png; sourceTree = "<group>"; };
+		2D45878718E93566006E240A /* Gray mold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gray mold.png"; sourceTree = "<group>"; };
+		2D45878818E93566006E240A /* p_cactorum_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_cactorum_main.png; sourceTree = "<group>"; };
+		2D45878E18E9368C006E240A /* Powdery mildew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Powdery mildew.png"; sourceTree = "<group>"; };
 		2D52186F18CD4AE1005FCC20 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
 		2D52187018CD4AE2005FCC20 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
 		2D52187218CD4D03005FCC20 /* content1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content1ViewController.h; sourceTree = "<group>"; };
@@ -172,6 +180,17 @@
 			path = CXAlertView;
 			sourceTree = "<group>";
 		};
+		2D45878518E93559006E240A /* disease picture */ = {
+			isa = PBXGroup;
+			children = (
+				2D45878618E93566006E240A /* Anthracnose.png */,
+				2D45878E18E9368C006E240A /* Powdery mildew.png */,
+				2D45878718E93566006E240A /* Gray mold.png */,
+				2D45878818E93566006E240A /* p_cactorum_main.png */,
+			);
+			name = "disease picture";
+			sourceTree = "<group>";
+		};
 		2D52186E18CD4AE1005FCC20 /* ICViewPager */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +262,7 @@
 		2D7EF4BF18CD496D00318443 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2D45878518E93559006E240A /* disease picture */,
 				2D45878318E7B882006E240A /* clemson u.gif */,
 				2DECAF5018DD047200E651E6 /* HouseBlack.png */,
 				2DECAF5818DD08F500E651E6 /* f131.png */,
@@ -370,14 +390,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D7EF4D118CD496D00318443 /* Images.xcassets in Resources */,
+				2D45878F18E9368C006E240A /* Powdery mildew.png in Resources */,
 				2D5D71FC18D28AED0007D44C /* strawberry_d1.jpg in Resources */,
 				2D7EF4C318CD496D00318443 /* InfoPlist.strings in Resources */,
 				2D52188218CD5005005FCC20 /* strawberry.png in Resources */,
 				2DECAF5718DD079F00E651E6 /* File - Video.png in Resources */,
+				2D45878B18E93566006E240A /* Gray mold.png in Resources */,
+				2D45878A18E93566006E240A /* Anthracnose.png in Resources */,
 				2DECAF5518DD060600E651E6 /* volume-24-512.png in Resources */,
 				2DECAF5918DD08F500E651E6 /* f131.png in Resources */,
 				2DECAF5118DD047200E651E6 /* HouseBlack.png in Resources */,
 				2D7EF4CC18CD496D00318443 /* Main.storyboard in Resources */,
+				2D45878C18E93566006E240A /* p_cactorum_main.png in Resources */,
 				2D23954918D2E77F008563EC /* peach.png in Resources */,
 				2DECAF5B18DD0EE700E651E6 /* f142.png in Resources */,
 				2D45878418E7B882006E240A /* clemson u.gif in Resources */,
