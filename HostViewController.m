@@ -21,7 +21,7 @@
 }
 
 - (void)viewDidLoad {
-    
+    NSLog(@"sandbox path：%@",NSHomeDirectory());
     self.dataSource = self;
     self.delegate = self;
     
