@@ -22,8 +22,8 @@
 
 - (void)viewDidLoad {
     NSLog(@"sandbox path：%@",NSHomeDirectory());
-    self.dataSource = self;
-    self.delegate = self;
+//    self.dataSource = self;
+//    self.delegate = self;
     
     self.title = @"Strawberry";
     
@@ -44,6 +44,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+/*
 #pragma mark - ViewPagerDataSource
 - (NSUInteger)numberOfTabsForViewPager:(ViewPagerController *)viewPager {
     return 3;
@@ -121,6 +122,6 @@
     
     return color;
 }
-
+*/
 @end
 

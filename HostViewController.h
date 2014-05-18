@@ -11,6 +11,6 @@
 
 #import "ViewPagerController.h"
 
-@interface HostViewController : ViewPagerController
+@interface HostViewController : UIViewController
 
 @end
