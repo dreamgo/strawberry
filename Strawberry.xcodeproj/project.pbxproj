@@ -53,6 +53,7 @@
 		2DA870301925CA5E002BA040 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8702F1925CA5E002BA040 /* ViewPagerController.m */; };
 		2DA870391925D5D7002BA040 /* REDActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA870361925D5D7002BA040 /* REDActionSheet.m */; };
 		2DA8703A1925D5D7002BA040 /* REDActionSheetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA870381925D5D7002BA040 /* REDActionSheetButton.m */; };
+		2DA8705A1929959B002BA040 /* UILabel+FormattedText.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA870591929959B002BA040 /* UILabel+FormattedText.m */; };
 		2DB6E2D918DCAFBA000936CC /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB6E2D818DCAFBA000936CC /* infoViewController.m */; };
 		2DB6E32818DCCB9B000936CC /* disease11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB6E32718DCCB9B000936CC /* disease11ViewController.m */; };
 		2DB6E32B18DCCBB2000936CC /* disease12ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB6E32A18DCCBB2000936CC /* disease12ViewController.m */; };
@@ -144,6 +145,8 @@
 		2DA870361925D5D7002BA040 /* REDActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDActionSheet.m; sourceTree = "<group>"; };
 		2DA870371925D5D7002BA040 /* REDActionSheetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDActionSheetButton.h; sourceTree = "<group>"; };
 		2DA870381925D5D7002BA040 /* REDActionSheetButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDActionSheetButton.m; sourceTree = "<group>"; };
+		2DA870581929959B002BA040 /* UILabel+FormattedText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FormattedText.h"; sourceTree = "<group>"; };
+		2DA870591929959B002BA040 /* UILabel+FormattedText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FormattedText.m"; sourceTree = "<group>"; };
 		2DB6E2D718DCAFBA000936CC /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = infoViewController.h; path = strawberry/infoViewController.h; sourceTree = SOURCE_ROOT; };
 		2DB6E2D818DCAFBA000936CC /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = infoViewController.m; path = strawberry/infoViewController.m; sourceTree = SOURCE_ROOT; };
 		2DB6E32618DCCB9B000936CC /* disease11ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = disease11ViewController.h; path = strawberry/disease11ViewController.h; sourceTree = SOURCE_ROOT; };
@@ -265,6 +268,7 @@
 		2D7EF4BE18CD496D00318443 /* Strawberry */ = {
 			isa = PBXGroup;
 			children = (
+				2DA870571929959B002BA040 /* FormattedUILabel */,
 				2DA870341925D5D7002BA040 /* REDActionSheet */,
 				2DA86FFB1920FABF002BA040 /* RTFlyoutMenu */,
 				2DECAF5C18DD114000E651E6 /* XCMultiSortTableView */,
@@ -368,6 +372,15 @@
 				2DA870381925D5D7002BA040 /* REDActionSheetButton.m */,
 			);
 			path = REDActionSheet;
+			sourceTree = "<group>";
+		};
+		2DA870571929959B002BA040 /* FormattedUILabel */ = {
+			isa = PBXGroup;
+			children = (
+				2DA870581929959B002BA040 /* UILabel+FormattedText.h */,
+				2DA870591929959B002BA040 /* UILabel+FormattedText.m */,
+			);
+			path = FormattedUILabel;
 			sourceTree = "<group>";
 		};
 		2DECAF5C18DD114000E651E6 /* XCMultiSortTableView */ = {
@@ -522,6 +535,7 @@
 				2DB6E2D918DCAFBA000936CC /* infoViewController.m in Sources */,
 				2D23954218D2E42E008563EC /* CXAlertButtonContainerView.m in Sources */,
 				2D23954718D2E42E008563EC /* LFGlassView.m in Sources */,
+				2DA8705A1929959B002BA040 /* UILabel+FormattedText.m in Sources */,
 				2D52187418CD4D03005FCC20 /* content1ViewController.m in Sources */,
 				2D52187718CD4D0C005FCC20 /* content2ViewController.m in Sources */,
 				2D23954418D2E42E008563EC /* CXAlertView.m in Sources */,
