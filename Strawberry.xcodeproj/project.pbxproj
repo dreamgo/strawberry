@@ -15,6 +15,8 @@
 		2D23954618D2E42E008563EC /* LFDisplayBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23953D18D2E42E008563EC /* LFDisplayBridge.m */; };
 		2D23954718D2E42E008563EC /* LFGlassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23953F18D2E42E008563EC /* LFGlassView.m */; };
 		2D23954918D2E77F008563EC /* peach.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D23954818D2E77F008563EC /* peach.png */; };
+		2D3A63B9192E7341009F79E8 /* URBMediaFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A63B8192E7341009F79E8 /* URBMediaFocusViewController.m */; };
+		2D3A63BC192E7361009F79E8 /* pics1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A63BB192E7361009F79E8 /* pics1ViewController.m */; };
 		2D45878418E7B882006E240A /* clemson u.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878318E7B882006E240A /* clemson u.gif */; };
 		2D45878A18E93566006E240A /* Anthracnose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878618E93566006E240A /* Anthracnose.png */; };
 		2D45878B18E93566006E240A /* Gray mold.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878718E93566006E240A /* Gray mold.png */; };
@@ -95,6 +97,10 @@
 		2D23953F18D2E42E008563EC /* LFGlassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFGlassView.m; sourceTree = "<group>"; };
 		2D23954018D2E42E008563EC /* LiveFrost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveFrost.h; sourceTree = "<group>"; };
 		2D23954818D2E77F008563EC /* peach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peach.png; sourceTree = "<group>"; };
+		2D3A63B7192E7341009F79E8 /* URBMediaFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBMediaFocusViewController.h; sourceTree = "<group>"; };
+		2D3A63B8192E7341009F79E8 /* URBMediaFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBMediaFocusViewController.m; sourceTree = "<group>"; };
+		2D3A63BA192E7361009F79E8 /* pics1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pics1ViewController.h; path = strawberry/pics1ViewController.h; sourceTree = SOURCE_ROOT; };
+		2D3A63BB192E7361009F79E8 /* pics1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pics1ViewController.m; path = strawberry/pics1ViewController.m; sourceTree = SOURCE_ROOT; };
 		2D45878318E7B882006E240A /* clemson u.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "clemson u.gif"; sourceTree = "<group>"; };
 		2D45878618E93566006E240A /* Anthracnose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Anthracnose.png; sourceTree = "<group>"; };
 		2D45878718E93566006E240A /* Gray mold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gray mold.png"; sourceTree = "<group>"; };
@@ -216,6 +222,15 @@
 			path = CXAlertView;
 			sourceTree = "<group>";
 		};
+		2D3A63B6192E732E009F79E8 /* URBMediaFocus */ = {
+			isa = PBXGroup;
+			children = (
+				2D3A63B7192E7341009F79E8 /* URBMediaFocusViewController.h */,
+				2D3A63B8192E7341009F79E8 /* URBMediaFocusViewController.m */,
+			);
+			name = URBMediaFocus;
+			sourceTree = "<group>";
+		};
 		2D45878518E93559006E240A /* disease picture */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +286,7 @@
 		2D7EF4BE18CD496D00318443 /* Strawberry */ = {
 			isa = PBXGroup;
 			children = (
+				2D3A63B6192E732E009F79E8 /* URBMediaFocus */,
 				2DA870571929959B002BA040 /* FormattedUILabel */,
 				2DA870341925D5D7002BA040 /* REDActionSheet */,
 				2DA86FFB1920FABF002BA040 /* RTFlyoutMenu */,
@@ -280,6 +296,8 @@
 				2D7EF4C718CD496D00318443 /* CUAppDelegate.h */,
 				2D7EF4C818CD496D00318443 /* CUAppDelegate.m */,
 				2D7EF4CA18CD496D00318443 /* Main.storyboard */,
+				2D3A63BA192E7361009F79E8 /* pics1ViewController.h */,
+				2D3A63BB192E7361009F79E8 /* pics1ViewController.m */,
 				2DB6E32618DCCB9B000936CC /* disease11ViewController.h */,
 				2DB6E32718DCCB9B000936CC /* disease11ViewController.m */,
 				2DB6E32918DCCBB2000936CC /* disease12ViewController.h */,
@@ -535,6 +553,7 @@
 				2D23954618D2E42E008563EC /* LFDisplayBridge.m in Sources */,
 				2D23954318D2E42E008563EC /* CXAlertButtonItem.m in Sources */,
 				2DA870121920FABF002BA040 /* RTFlyoutMenu.m in Sources */,
+				2D3A63B9192E7341009F79E8 /* URBMediaFocusViewController.m in Sources */,
 				2D7EF4C518CD496D00318443 /* main.m in Sources */,
 				2DB6E2D918DCAFBA000936CC /* infoViewController.m in Sources */,
 				2D23954218D2E42E008563EC /* CXAlertButtonContainerView.m in Sources */,
@@ -546,6 +565,7 @@
 				2D23954118D2E42E008563EC /* CXAlertBackgroundWindow.m in Sources */,
 				2DECAF6418DD114000E651E6 /* UIView+XCMultiSortTableView.m in Sources */,
 				2DA870391925D5D7002BA040 /* REDActionSheet.m in Sources */,
+				2D3A63BC192E7361009F79E8 /* pics1ViewController.m in Sources */,
 				2DA870301925CA5E002BA040 /* ViewPagerController.m in Sources */,
 				2DECAF6518DD114000E651E6 /* XCMultiSortTableView.m in Sources */,
 			);
