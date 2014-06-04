@@ -30,6 +30,11 @@
 		2D3A63DD193781ED009F79E8 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A63D6193781ED009F79E8 /* FMDatabasePool.m */; };
 		2D3A63DE193781ED009F79E8 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A63D8193781ED009F79E8 /* FMDatabaseQueue.m */; };
 		2D3A63DF193781ED009F79E8 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A63DA193781ED009F79E8 /* FMResultSet.m */; };
+		2D3A63E7193BEEBA009F79E8 /* btn_close_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A63E1193BEEBA009F79E8 /* btn_close_normal.png */; };
+		2D3A63E8193BEEBA009F79E8 /* btn_close_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A63E2193BEEBA009F79E8 /* btn_close_normal@2x.png */; };
+		2D3A63E9193BEEBA009F79E8 /* btn_close_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A63E3193BEEBA009F79E8 /* btn_close_selected.png */; };
+		2D3A63EA193BEEBA009F79E8 /* btn_close_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A63E4193BEEBA009F79E8 /* btn_close_selected@2x.png */; };
+		2D3A63EB193BEEBA009F79E8 /* DXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A63E6193BEEBA009F79E8 /* DXAlertView.m */; };
 		2D45878418E7B882006E240A /* clemson u.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878318E7B882006E240A /* clemson u.gif */; };
 		2D45878A18E93566006E240A /* Anthracnose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878618E93566006E240A /* Anthracnose.png */; };
 		2D45878B18E93566006E240A /* Gray mold.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D45878718E93566006E240A /* Gray mold.png */; };
@@ -133,6 +138,12 @@
 		2D3A63D8193781ED009F79E8 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		2D3A63D9193781ED009F79E8 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		2D3A63DA193781ED009F79E8 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		2D3A63E1193BEEBA009F79E8 /* btn_close_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_normal.png; sourceTree = "<group>"; };
+		2D3A63E2193BEEBA009F79E8 /* btn_close_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_normal@2x.png"; sourceTree = "<group>"; };
+		2D3A63E3193BEEBA009F79E8 /* btn_close_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_selected.png; sourceTree = "<group>"; };
+		2D3A63E4193BEEBA009F79E8 /* btn_close_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_selected@2x.png"; sourceTree = "<group>"; };
+		2D3A63E5193BEEBA009F79E8 /* DXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXAlertView.h; sourceTree = "<group>"; };
+		2D3A63E6193BEEBA009F79E8 /* DXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXAlertView.m; sourceTree = "<group>"; };
 		2D45878318E7B882006E240A /* clemson u.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "clemson u.gif"; sourceTree = "<group>"; };
 		2D45878618E93566006E240A /* Anthracnose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Anthracnose.png; sourceTree = "<group>"; };
 		2D45878718E93566006E240A /* Gray mold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gray mold.png"; sourceTree = "<group>"; };
@@ -280,6 +291,19 @@
 			name = FMDB;
 			sourceTree = "<group>";
 		};
+		2D3A63E0193BEEBA009F79E8 /* DXAlert */ = {
+			isa = PBXGroup;
+			children = (
+				2D3A63E1193BEEBA009F79E8 /* btn_close_normal.png */,
+				2D3A63E2193BEEBA009F79E8 /* btn_close_normal@2x.png */,
+				2D3A63E3193BEEBA009F79E8 /* btn_close_selected.png */,
+				2D3A63E4193BEEBA009F79E8 /* btn_close_selected@2x.png */,
+				2D3A63E5193BEEBA009F79E8 /* DXAlertView.h */,
+				2D3A63E6193BEEBA009F79E8 /* DXAlertView.m */,
+			);
+			path = DXAlert;
+			sourceTree = "<group>";
+		};
 		2D45878518E93559006E240A /* disease picture */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +359,7 @@
 		2D7EF4BE18CD496D00318443 /* Strawberry */ = {
 			isa = PBXGroup;
 			children = (
+				2D3A63E0193BEEBA009F79E8 /* DXAlert */,
 				2D3A63D0193781B5009F79E8 /* FMDB */,
 				2D3A63B6192E732E009F79E8 /* URBMediaFocus */,
 				2DA870571929959B002BA040 /* FormattedUILabel */,
@@ -558,6 +583,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D3A63C3192F7226009F79E8 /* Chat.png in Resources */,
+				2D3A63E8193BEEBA009F79E8 /* btn_close_normal@2x.png in Resources */,
 				2DA8700D1920FABF002BA040 /* submenuBackground.png in Resources */,
 				2D3A63C1192F718F009F79E8 /* Message-icon-grey.png in Resources */,
 				2D7EF4D118CD496D00318443 /* Images.xcassets in Resources */,
@@ -566,6 +592,7 @@
 				2D3A63C9192F7376009F79E8 /* headphone-8.png in Resources */,
 				2D7EF4C318CD496D00318443 /* InfoPlist.strings in Resources */,
 				2D52188218CD5005005FCC20 /* strawberry.png in Resources */,
+				2D3A63E7193BEEBA009F79E8 /* btn_close_normal.png in Resources */,
 				2DA8700F1920FABF002BA040 /* submenuSeparator.png in Resources */,
 				2DECAF5718DD079F00E651E6 /* File - Video.png in Resources */,
 				2DA8705C1929BE52002BA040 /* iOS-7-Purple-Gradient.png in Resources */,
@@ -578,6 +605,7 @@
 				2DECAF5518DD060600E651E6 /* volume-24-512.png in Resources */,
 				2D3A63CD192F742D009F79E8 /* home.png in Resources */,
 				2DA8700B1920FABF002BA040 /* mainSeparator.png in Resources */,
+				2D3A63EA193BEEBA009F79E8 /* btn_close_selected@2x.png in Resources */,
 				2DECAF5918DD08F500E651E6 /* f131.png in Resources */,
 				2DA870091920FABF002BA040 /* mainBackground.png in Resources */,
 				2DECAF5118DD047200E651E6 /* HouseBlack.png in Resources */,
@@ -589,6 +617,7 @@
 				2D45879318EC7826006E240A /* P. cactorum.png in Resources */,
 				2D45878418E7B882006E240A /* clemson u.gif in Resources */,
 				2D3A63CF192F7483009F79E8 /* home_1-512.png in Resources */,
+				2D3A63E9193BEEBA009F79E8 /* btn_close_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +641,7 @@
 				2DECAF6618DD114000E651E6 /* XCMultiSortTableViewBGScrollView.m in Sources */,
 				2D52188018CD4DF7005FCC20 /* HostViewController.m in Sources */,
 				2DB6E32B18DCCBB2000936CC /* disease12ViewController.m in Sources */,
+				2D3A63EB193BEEBA009F79E8 /* DXAlertView.m in Sources */,
 				2D52187A18CD4D18005FCC20 /* content3ViewController.m in Sources */,
 				2DB6E32818DCCB9B000936CC /* disease11ViewController.m in Sources */,
 				2D7EF4C918CD496D00318443 /* CUAppDelegate.m in Sources */,
