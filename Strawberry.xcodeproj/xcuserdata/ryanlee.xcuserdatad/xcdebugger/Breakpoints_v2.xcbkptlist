@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "strawberry/disease11ViewController.m"
-            timestampString = "423535274.840952"
+            timestampString = "423549392.916442"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "384"
-            endingLineNumber = "384">
+            startingLineNumber = "451"
+            endingLineNumber = "451">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
